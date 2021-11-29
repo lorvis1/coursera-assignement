@@ -1,7 +1,82 @@
 #header-nav {
-	background-color: gray;
+	background-color: #D1123A;
+	border-radius: 0;
+	border: 1px #D1123A;
+	min-height: 80px;
 }
 
 .navbar-brand {
+	padding-top: 30px;
+}
+
+.navbar-brand h1 {
 	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 25px;
+	color: #fff;
+	line-height: .75;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  margin-bottom: 0; 
+}
+
+.navbar-default .navbar-toggle{
+	border: 2px solid black;
+	background-color: #fff;
+	padding: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #000;
+}
+
+#nav-list a{
+	text-align: center;
+	background-color: #FFE633;
+	color: #000;
+	font-size: 1.5em;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 3px solid black;
+}
+
+#collapsable-nav{
+	margin-top: 18px;
+	border-top: 0;
+}
+
+.heading{
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#main-text{
+	border: 2px solid red;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 5px;
+	font-size: 1.2em;
+	background-color: #F7AD47;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#main-text h2{
+	font-style: italic;
 }
